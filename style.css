@@ -8,7 +8,7 @@ body {
 .section-one {
   width: 100%;
   height: 616px;
-  background-color: #dbdbdb;
+  background-color: white;
 }
 
 .container-header {
@@ -29,6 +29,7 @@ body {
 .logo {
   width: 54px;
   height: 50px;
+  border-radius: 2px;
 }
 @media (min-width: 740px) {
   .logo {
@@ -88,6 +89,7 @@ body {
   justify-content: center;
   font-family: "Open Sans";
   font-size: 45px;
+  text-align: center;
 }
 @media (min-width: 740px) {
   .primer-titulo {
@@ -217,7 +219,13 @@ body {
   justify-content: center;
   margin: 0 auto;
   font-family: "Open Sans";
-  font-size: 48px;
+  font-size: 32px;
+}
+
+@media (min-width: 740px) {
+  .service-title {
+    font-size: 48px;
+  }
 }
 .types-of-service {
   display: flex;
@@ -284,8 +292,10 @@ body {
 .boton {
   width: 100%;
   height: 45px;
-  background-color: #ffd953;
+  background-color: #d2adda;
   margin-top: 60px;
+  border-color: #d2adda;
+  font-family: "Roboto";
 }
 .input-nombre,
 .input-email {
@@ -341,6 +351,18 @@ footer {
 .image-social {
   width: 27px;
   height: 27px;
+}
+.logoo-footer {
+  width: 77px;
+  height: 71px;
+  border-radius: 2px;
+}
+@media (min-width: 740px) {
+  .logoo-footer {
+    width: 112px;
+    height: 103px;
+    border-radius: 2px;
+  }
 }
 .container-footer-b {
   display: flex;
